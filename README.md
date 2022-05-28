@@ -8,8 +8,8 @@ To build the program:
 - "make" compiles the program
 
 To run the program:
-- "./banhammer -t size -f size [text file]" will print a  message followed by the prohibited words the user wrote
-- "./banhammer -t size -f size -s [text file]" will print statistics of the binary tree
+- "./banhammer -t size -f size < [input_text file]" will print a  message followed by the prohibited words the user wrote
+- "./banhammer -t size -f size -s < [input_text file]" will print statistics of the binary tree
 
 Command line options:
 - "-h" will print a helper message
